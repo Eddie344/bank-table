@@ -1,0 +1,107 @@
+body {
+	box-sizing: border-box;
+}
+ul, p {
+	margin: 0;
+	padding: 0;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+section .section-inner ul {
+    list-style-type: none;
+}
+.main-page-content {
+    margin: 80px 0;
+}
+.main-page-content .pay-items table .content {
+    box-sizing: border-box;
+}
+.section-inner {
+	max-width: 1140px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;	
+}
+.main-page-content .pay-items table {
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #f7f7f7;
+
+}
+.main-page-content .pay-items table tbody {
+	max-width: 938px;
+}
+.main-page-content .pay-items table .head th:first-child {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+}
+.main-page-content .pay-items table .head th {
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #0C709D;
+}
+.main-page-content .pay-items table .content td:first-child {
+    padding-left: 20px;
+}
+.main-page-content .pay-items table .content .list-systems {
+    width: 30%;
+}
+.main-page-content .pay-items table .content td {
+    text-align: center;
+    padding: 10px 0;
+}
+.main-page-content .pay-items table .content .list-systems li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.main-page-content .pay-items table .content .list-systems li img {
+    border-radius: 100%;
+    background-color: #f7f7f7;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+.main-page-content .pay-items table .content td:first-child a {
+    color: #1A6582;
+}
+.main-page-content .pay-items table .content .tariff p {
+    font-size: 16px;
+    line-height: 55px !important;
+}
+.main-page-content .pay-items table .content .max-limit p {
+    font-size: 16px;
+    line-height: 55px !important;
+}
+.main-page-content .pay-items table .content .autopay ul li, .main-page-content .pay-items table .content .holding ul li, .main-page-content .pay-items table .content .refund ul li, .main-page-content .pay-items table .content .play-demo ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+}
+.main-page-content .pay-items table .content .play-demo .play-active .icon {
+    cursor: pointer;
+    background-image: url(../img/play-active.png);
+}
+.main-page-content .pay-items table .content .play-demo .icon {
+    background-size: 100%;
+    border-radius: 100%;
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+.main-page-content .pay-items table .content .autopay ul, .main-page-content .pay-items table .content .holding ul, .main-page-content .pay-items table .content .refund ul, .main-page-content .pay-items table .content .play-demo ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
