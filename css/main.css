@@ -105,3 +105,6 @@ section .section-inner ul {
     flex-direction: column;
     align-items: center;
 }
+.main-page-content .pay-items table .content .play-demo .play-inactive .icon {
+    background-image: url(../img/play-inactive.png);
+}
