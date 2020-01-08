@@ -1,7 +1,9 @@
 body {
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	m
 }
-ul, p {
+body, ul, p {
 	margin: 0;
 	padding: 0;
 }
@@ -15,6 +17,11 @@ section .section-inner ul {
 .main-page-content {
     margin: 80px 0;
 }
+.main-page-content .pay-items {
+	display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 .main-page-content .pay-items table .content {
     box-sizing: border-box;
 }
@@ -27,6 +34,7 @@ section .section-inner ul {
 .main-page-content .pay-items table {
     margin-bottom: 50px;
     border-collapse: collapse;
+    min-width: 720px;
     width: 100%;
     border: 2px solid #f7f7f7;
 
@@ -108,3 +116,9 @@ section .section-inner ul {
 .main-page-content .pay-items table .content .play-demo .play-inactive .icon {
     background-image: url(../img/play-inactive.png);
 }
+
+/*@media (max-width: 755px) { 
+	.section-inner {
+		padding-right: 0;
+	}
+}*/
